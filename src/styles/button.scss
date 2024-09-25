@@ -1,0 +1,32 @@
+%btn {
+    background-color: var(--gray-3);
+    color: var(--gray-0);
+    border: none;
+    border-radius: 4px;
+
+    &:hover {
+        background-color: var(--gray-2);
+    }
+}
+
+
+
+.btnExit {
+    @extend %btn;
+
+    height: 32px;
+    padding: 0px 16.243px;
+}
+
+.btnCreate {
+    @extend %btn;
+    width: 32.485px;
+    height: 32px;
+}
+
+
+.btnIcon {
+    background: transparent;
+    border: none;
+    color: #FFF;
+}

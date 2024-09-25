@@ -1,0 +1,68 @@
+.modalOverlay {
+    position: fixed;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    inset: 0;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.25);
+}
+
+.modalBox {
+    width: clamp(18.5rem, 17.575rem + 4.625vw, 23.125rem);
+    background-color: var(--gray-3);
+    border-radius: 4px;
+}
+
+.modalHeader {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: .75rem 1.25rem;
+
+    border-radius: 4px 4px 0px 0px;
+    background-color: var(--gray-2);
+}
+
+.modalForm {
+    display: flex;
+    flex-direction: column;
+    gap: 1.375rem;
+    padding: 1.5rem 1.25rem;
+
+    label {
+        color: var(--gray-0);
+    }
+
+    button {
+        height: 3rem;
+        padding: 0rem 1.3959rem;
+        border-radius: 4.061px;
+        background: var(--color-primary);
+        color: #FFF;
+        border: none;
+        line-height: 164.964%;
+    }
+}
+
+
+.inputTech::placeholder {
+    color: rgba(255, 255, 255, 00.6)
+}
+.inputTech:hover {
+    border: 1px solid var(--gray-0);
+}
+
+.inputStatus {
+    color: var(--gray-0);
+
+    &:hover {
+        border: 1px solid var(--gray-0);
+    }
+}
+
+.inputStatus:focus {
+    border: 1px solid var(--gray-0);
+}

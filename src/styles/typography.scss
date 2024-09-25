@@ -1,0 +1,32 @@
+%title {
+    font-weight: 700;
+    line-height: 155.556%;
+    color: white;
+}
+
+.title1 {
+    @extend %title;
+    font-size: 1.125rem;
+}
+
+.title2 {
+    @extend %title;
+    font-size: 1rem;
+}
+
+.headline {
+    color: var(--gray-1);
+    font-size: .75rem;
+    font-weight: 400;
+}
+
+
+.headline.bold {
+    font-weight: 600;
+}
+
+.paragraph {
+    color: #FFF;
+    font-size: 1rem;
+    font-weight: 400;
+}

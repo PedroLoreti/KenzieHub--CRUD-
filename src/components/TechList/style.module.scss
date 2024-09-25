@@ -1,0 +1,17 @@
+.description {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 clamp(0.813rem, -3.213rem + 20.125vw, 20.938rem);
+    margin: .6875rem 0 1.3125rem 0;
+}
+
+.techList {
+    display: flex;
+    flex-direction: column;
+    background-color: var(--gray-3);
+    padding: 1.4375rem 1.375rem;
+    border-radius: 4px;
+    gap:  10px;
+    margin: 0 clamp(0.813rem, -3.213rem + 20.125vw, 20.938rem)
+}

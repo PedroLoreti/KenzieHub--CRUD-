@@ -1,0 +1,9 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 clamp(0.813rem, -3.213rem + 20.125vw, 20.938rem);
+    height: 4.5rem;
+
+    border-bottom: 2px solid var(--gray-3);
+}

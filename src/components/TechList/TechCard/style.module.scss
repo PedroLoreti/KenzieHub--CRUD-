@@ -1,0 +1,30 @@
+.card {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    height: 3.0625rem;
+
+    background-color: var(--gray-4);
+    border-radius: 4px;
+    padding: 13px clamp(1.063rem, 1rem + 0.313vw, 1.375rem);
+
+    @media (max-width: 400px) {
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+        height: 4.7639rem;
+
+        .description {
+            width: 100%;
+        }
+    }
+}
+
+.description {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap:  .625rem;
+}
+
