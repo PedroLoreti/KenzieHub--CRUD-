@@ -9,19 +9,17 @@
     }
 }
 
-
-
 .btnExit {
     @extend %btn;
 
-    height: 32px;
-    padding: 0px 16.243px;
+    height: 2rem;
+    padding: 0rem 1.0152rem;
 }
 
 .btnCreate {
     @extend %btn;
-    width: 32.485px;
-    height: 32px;
+    width: 2.0303rem;
+    height: 2rem;
 }
 
 

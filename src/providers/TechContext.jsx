@@ -71,8 +71,11 @@ export const TechProvider = ({ children }) => {
 
 
     useEffect(() => {
-        setTechsList(user.techs || [])
-    }, [user.techs])
+        if (user && user.techs) {
+            setTechsList(user.techs || [])
+        }
+
+    }, [user])
 
 
     return (
